@@ -1,8 +1,10 @@
-package com.ms.commande.repository;
+package com.ms.Commande.repository;
 
-import com.ms.commande.entity.Commande;
+
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
+
+import com.ms.Commande.entity.Commande;
 
 @Repository
 public interface Repo extends CrudRepository <Commande, Long> {

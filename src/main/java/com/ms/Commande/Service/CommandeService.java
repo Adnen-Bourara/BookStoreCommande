@@ -1,9 +1,9 @@
-package com.ms.commande.Service;
+package com.ms.Commande.Service;
 
-
-import com.ms.commande.entity.Commande;
 
 import java.util.List;
+
+import com.ms.Commande.entity.Commande;
 
 public interface CommandeService {
 

@@ -1,12 +1,14 @@
-package com.ms.commande.controller;
+package com.ms.Commande.controller;
 
 
-import com.ms.commande.entity.Commande;
+
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import com.ms.commande.Service.CommandeService;
 
+import com.ms.Commande.Service.CommandeService;
+import com.ms.Commande.entity.Commande;
 
 import java.util.Optional;
 

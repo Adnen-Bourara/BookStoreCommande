@@ -1,12 +1,12 @@
-package com.ms.commande.Service.Impl;
+package com.ms.Commande.Service.Impl;
 
 
-import com.ms.commande.Service.CommandeService;
-import com.ms.commande.repository.Repo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ms.commande.entity.Commande;
 
+import com.ms.Commande.Service.CommandeService;
+import com.ms.Commande.entity.Commande;
+import com.ms.Commande.repository.Repo;
 
 import java.util.List;
 

@@ -1,4 +1,5 @@
-package com.ms.commande.entity;
+package com.ms.Commande.entity;
+
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
